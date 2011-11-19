@@ -1,0 +1,22 @@
+{
+    "name": "sally",
+    "version" : "0.1.0",
+    "description": "A tool that distributes SSA suites to a cluster in order to test load",
+    "author": "Pete Diemert <pete_diemert@msn.com>",
+    "dependencies": {"zeromq" : ">= 0.5.1"},
+    "devDependencies":{},
+    "engine": "node >= 0.4.12",
+    "main" : "./lib/index.js",
+    "keywords" : ["testing", "async", "vows", "apieasy", "rest", "loadtest"],
+    "repository" :
+    {
+        "type" : "git",
+        "url" : "https://git@github.com:pdiemert/sally.git"
+
+    },
+    "bin" :
+    {
+        "ssa" : "./bin/cli.js"
+    }
+    
+}
