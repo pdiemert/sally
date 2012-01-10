@@ -3,7 +3,7 @@
     "version" : "0.1.0",
     "description": "A tool that distributes SSA suites to a cluster in order to test load",
     "author": "Pete Diemert <pete_diemert@msn.com>",
-    "dependencies": {"zeromq" : ">= 0.5.1"},
+    "dependencies": {"zmq" : ">= 2.0.0"},
     "devDependencies":{},
     "engine": "node >= 0.4.12",
     "main" : "./lib/index.js",
@@ -16,7 +16,7 @@
     },
     "bin" :
     {
-        "ssa" : "./bin/cli.js"
+        "sally" : "./bin/cli.js"
     }
     
 }

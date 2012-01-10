@@ -64,10 +64,9 @@
                 });
             }
 
-        if (program.args.length > 0)
+        if (program.args.length > 0 && program.args[0])
             {
                 // We are master
-
                 if (program.master)
                     {
                         out(program);
@@ -90,9 +89,10 @@
             }
         else
             {
+                // We are slave
+                
                 putl('Running as a slave to ' + host + ', up port ' + uport + ', down port ' + dport);
 
-                // We are slave
                 var wkr = require('../lib/worker.js');
 
                 wkr.start(host, uport, dport);
