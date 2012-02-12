@@ -16,67 +16,67 @@ verbose parsed url { pathname: '.', path: '.', href: '.' }
 verbose caching package.json
 verbose loadDefaults sally@0.0.2
 verbose pack /Users/PlayUp/playup/projects/sally
-verbose pack /Users/PlayUp/playup/projects/sally /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/tmp.tgz
+verbose pack /Users/PlayUp/playup/projects/sally /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/tmp.tgz
 silly makeList /Users/PlayUp/playup/projects/sally
 verbose caching /Users/PlayUp/playup/projects/sally/modules/commander.js/package.json
 verbose loadDefaults commander@0.4.2
 silly dir, dirLen [ '/Users/PlayUp/playup/projects/sally/modules/commander.js',
 silly dir, dirLen   57 ]
 silly dir, dirLen [ '/Users/PlayUp/playup/projects/sally', 36 ]
-verbose tarball /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/tmp.tgz
+verbose tarball /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/tmp.tgz
 verbose parent /Users/PlayUp/playup/projects/sally
-verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm'
-verbose mkdir done: /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm'
+verbose mkdir done: /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm 755
 verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package
+verbose unpackTarget /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package
 silly gunzTarPerm modes [ '755', '644' ]
 silly afterUntar undefined
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/package.json
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/README.md
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/sshexp.sh
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/test.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/bin
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/bin/cli.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib/const.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib/index.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib/LoadRunner.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib/Monitor.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib/util.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/lib/worker.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/colored
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/colored/index.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/.npmignore
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/.travis.yml
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/History.md
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/index.js
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/Makefile
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/package.json
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/Readme.md
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/lib
-silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally/modules/commander.js/lib/commander.js
-verbose gunzed /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally
-verbose rm'ed /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package
-verbose renamed [ '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/___package.npm/sally',
-verbose renamed   '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package' ]
-verbose caching /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package/package.json
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/package.json
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/README.md
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/sshexp.sh
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/test.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/bin
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/bin/cli.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib/const.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib/index.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib/LoadRunner.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib/Monitor.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib/util.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/lib/worker.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/colored
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/colored/index.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/.npmignore
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/.travis.yml
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/History.md
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/index.js
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/Makefile
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/package.json
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/Readme.md
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/lib
+silly asyncMap in gTP /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally/modules/commander.js/lib/commander.js
+verbose gunzed /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally
+verbose rm'ed /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package
+verbose renamed [ '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/___package.npm/sally',
+verbose renamed   '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package' ]
+verbose caching /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package/package.json
 verbose loadDefaults sally@0.0.2
 verbose tarball contents [ 'package', 'tmp.tgz' ]
-verbose from cache /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package/package.json
-verbose pack /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package
-verbose pack /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package /Users/PlayUp/.npm/sally/0.0.2/package.tgz
-silly makeList /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package
-verbose caching /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package/modules/commander.js/package.json
+verbose from cache /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package/package.json
+verbose pack /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package
+verbose pack /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package /Users/PlayUp/.npm/sally/0.0.2/package.tgz
+silly makeList /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package
+verbose caching /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package/modules/commander.js/package.json
 verbose loadDefaults commander@0.4.2
-silly dir, dirLen [ '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package/modules/commander.js',
+silly dir, dirLen [ '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package/modules/commander.js',
 silly dir, dirLen   130 ]
-silly dir, dirLen [ '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package',
+silly dir, dirLen [ '/var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package',
 silly dir, dirLen   109 ]
 verbose tarball /Users/PlayUp/.npm/sally/0.0.2/package.tgz
-verbose parent /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029060067/1329029060067-0.37417600001208484/package
+verbose parent /var/folders/jf/qjqwdh6908946tsdm48t4mwc0000gn/T/npm-1329029102041/1329029102041-0.06879774550907314/package
 verbose mkdir (expected) error ENOENT, no such file or directory '/Users/PlayUp/.npm/sally/0.0.2/___package.npm'
 verbose mkdir done: /Users/PlayUp/.npm/sally/0.0.2/___package.npm 755
 verbose unpack_ uid, gid [ undefined, undefined ]
@@ -116,8 +116,8 @@ verbose renamed [ '/Users/PlayUp/.npm/sally/0.0.2/___package.npm/package',
 verbose renamed   '/Users/PlayUp/.npm/sally/0.0.2/package' ]
 verbose caching /Users/PlayUp/.npm/sally/0.0.2/package/package.json
 verbose loadDefaults sally@0.0.2
-silly updated sha bytes 20587
-info shasum f1710b529e59be3f1a2d30c62975eb01125d4af1
+silly updated sha bytes 20591
+info shasum e10033ebd3defd5e7bc56c978dd24f0023eff5f4
 info shasum /Users/PlayUp/.npm/sally/0.0.2/package.tgz
 verbose from cache /Users/PlayUp/.npm/sally/0.0.2/package/package.json
 verbose chmod /Users/PlayUp/.npm/sally/0.0.2/package.tgz 644
@@ -141,7 +141,7 @@ silly publish   _npmVersion: '1.1.0-beta-10',
 silly publish   _nodeVersion: 'v0.6.7',
 silly publish   _defaultsLoaded: true,
 silly publish   dist: 
-silly publish    { shasum: 'f1710b529e59be3f1a2d30c62975eb01125d4af1',
+silly publish    { shasum: 'e10033ebd3defd5e7bc56c978dd24f0023eff5f4',
 silly publish      tarball: 'http://registry.npmjs.org/sally/-/sally-0.0.2.tgz' } }
 verbose raw, before any munging sally
 verbose url resolving [ 'https://registry.npmjs.org/', './sally' ]
