@@ -11,7 +11,7 @@
             }
 
         var consts = require('../lib/const.js');
-        var program = require('../modules/commander.js');
+        var program = require('commander');
         var childp = require('child_process');
         var files = [];
         var host;
