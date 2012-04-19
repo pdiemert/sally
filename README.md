@@ -1,6 +1,12 @@
 #Sally
 ###A tool that distributes [SSA](https://github.com/pdiemert/ssa) suites to a cluster in order to test load using node.js
 
+Install:
+
+	npm install sally
+	
+(note: libzmq is used for communication.  See [ZeroMQ](http://http://www.zeromq.org/) for reference.)
+
 When sally is run without a suite it assumed to be a *slave*.  Any number of slaves can be run, pass the host name of the master:
 
 	> sally -m localhost
@@ -15,7 +21,6 @@ Run the master as an app. that calls runLoad():
 	
 When sally starts it will search for available slaves before starting the load test.  There must be at least one slave available.  After the test is run the slave will go back into *wait* mode for the next test.
 
-Note: Sally uses ZeroMQ (libzmq) for communication.
 
 An example load test that creates a single virtual user to make an http request (localhost:1337) every 500ms for a period of 5s:
 
