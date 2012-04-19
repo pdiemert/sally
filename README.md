@@ -90,7 +90,8 @@ An object which should be used during start to set properties which will be pass
 An id for the worker processes, every SLAVE has a unique worker id  
 
 
-**options** is an object that can have similar properties to SSA with the additional:
+##Options##
+An object that can have similar properties to SSA with the additional:
 
 ####params
 Parameters sent to all suites context
