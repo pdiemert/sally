@@ -15,6 +15,8 @@ Run the master as an app. that calls runLoad():
 	
 When sally starts it will search for available slaves before starting the load test.  There must be at least one slave available.  After the test is run the slave will go back into *wait* mode for the next test.
 
+Note: Sally uses ZeroMQ (libzmq) for communication.
+
 An example load test that creates a single virtual user to make an http request (localhost:1337) every 500ms for a period of 5s:
 
 	require('sally').runLoad({
