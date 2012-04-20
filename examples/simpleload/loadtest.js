@@ -19,7 +19,8 @@ require('sally').runLoad({
 		loadProfile:{
 			'reader':
 			[
-				[0, 1]  // One reader for duration
+				[0, 1],  // One reader at start for duration
+				[5, 5]   // .. to five at the end
 			]
 		},
 		repeatDelay:{
