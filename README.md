@@ -88,7 +88,9 @@ A function that returns the user count for a user name
 An object which should be used during start to set properties which will be passed to all users
 ####workerId
 An id for the worker processes, every SLAVE has a unique worker id  
-
+####clock
+An object containing the merge of all clocks.  Use the 'clock' property on each user suite to retrieve timings.
+This object will have {clockname:{count:,elapsed:,avg:} // all times in ms
 
 ##Options##
 An object that can have similar properties to SSA with the additional:

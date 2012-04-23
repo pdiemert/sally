@@ -1,11 +1,11 @@
 {
     "name": "sally",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "description": "A tool that distributes SSA suites to a cluster in order to test load",
     "author": "Pete Diemert <pete_diemert@msn.com>",
     "dependencies": {
         "zmq" : ">= 2.0.0",
-        "ssa" : ">= 0.1.15",
+        "ssa" : ">= 0.1.20",
         "underscore" : ">= 1.3.1",
         "eyes" : ">= 0.1.7",
         "commander" : ">= 0.5.2",
