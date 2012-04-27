@@ -123,6 +123,8 @@ Can be either a number which will be the number of milliseconds between suite ex
 ####dumpLog
 If true, will dump contents of combined log after load test. If "onfail" then will dump only on failure.
 
+####spindown
+Number of seconds to wait at the end of the test for any open connections to close.  Default is 60.
 
 All logs are merged before finish is called
 
