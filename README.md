@@ -3,7 +3,7 @@
 
 Install:
 
-	npm install sally
+	npm install sally -g
 	
 (note: libzmq is used for communication.  See [ZeroMQ](http://http://www.zeromq.org/) for reference.)
 
