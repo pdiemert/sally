@@ -64,7 +64,7 @@
                 });
             }
 
-        if (program.args.length > 0 && program.args[0])
+        if (program.args.length > 0 && program.args[0] != 'nocluster')
             {
                 // We are master
                 if (program.master)
@@ -89,8 +89,34 @@
             }
         else
             {
-                // We are slave
-                
+                // We are slave, start up a cluster
+				if (process.argv.indexOf('nocluster') == -1)
+				{
+					var _cluster = require('cluster');
+
+					var cCPU = require('os').cpus().length;
+
+					if (_cluster.isMaster)
+					{
+						putl('Master started, forking workers');
+
+						for (var i = 0; i < cCPU; i++)
+							_cluster.fork();
+
+						_cluster.on('exit', function (worker, code, signal)
+						{
+							//putl('Worker #' + worker.process.pid + ' exited');
+						});
+
+						_cluster.on('online', function (worker)
+						{
+							//putl('Worker #%d online', worker.process.pid);
+						});
+
+						return;
+					}
+				}
+
                 putl('Running as a slave to ' + host + ', up port ' + uport + ', down port ' + dport);
 
                 var wkr = require('../lib/worker.js');
